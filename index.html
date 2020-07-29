@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/favicon.jpg" />
+    <title>ProjectTime</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <nav class="barra-navegacao">
+        <h1>Project<span class="branco">Time</span></h1>
+    </nav>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Calculadora ProjectTime</h1>
+    </header>
+    <main class="conteudo-principal">
+        <section class="secao secao-hora">
+            <article class="secao__conteudo">
+                <div class="secao__formulario">
+                    <fieldset>
+                        <legend>Qual o valor da sua hora?</legend>
+                        <div class="secao__formulario__grupo">
+                            <label for="valor-hora">Valor hora</label>
+                            <input id="valor-hora" type="number" />
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Quanto tempo levará o projeto?</legend>
+                        <div class="secao__formulario__grupo">
+                            <label for="horas-projeto">Tempo projeto</label>
+                            <input id="horas-projeto" type="number" />
+                        </div>
+                    </fieldset>
+                    <button onclick="calcular()">Calcular</button>
+                </div>
+            </article>
+            <footer class="secao__rodape">
+                <h3 class="secao__rodape__valor">
+                    <span id="resultado">R$ 0.00</span>
+                </h3>
+                <p class="secao__rodape__legenda">Valor do projeto</p>
+            </footer>
+        </section>
+
+    </main>
+    <footer class="rodape"> Feito por Clarice Santos
+        <a href="https://www.instagram.com/clacla_s8/" target="_blank"><img src="img/instagram-icon.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/clarice-santos-07a47794/" target="_blank"><img src="img/linkedin-icon.png" alt=""></a>
+        <a href="https://github.com/clacla-s8" target="_blank"><img src="img/github-logo_icon-icons.png" alt=""></a>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
